@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif, Verdana;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header{
+    padding:50px;
+    background-color: white;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
