@@ -35,8 +35,9 @@ function entregarDinero()
 
   if (dinero > 0)
   {
-    
+  
     resultado.innerHTML = "ERROR! Este cajero no tiene la cantidad requerida o fue requerido un monto no admitido."
+    resultado.style.color= "red"
   }
   else
   {
@@ -44,7 +45,8 @@ function entregarDinero()
     {
       if(e.cantidad > 0)
       {
-        resultado.innerHTML = resultado.innerHTML + e.cantidad + " billetes de $" + e.valor + " <br/>";
+        resultado.innerHTML =  resultado.innerHTML + "El cajero te ha entregado "  + e.cantidad + " billete(s) de $" + e.valor + " <br/>" ;
+        
       }
       
     }
@@ -68,5 +70,3 @@ var papeles = 0;
 var resultado = document.getElementById ("resultado");
 var b = document.getElementById( "extraer");
 b.addEventListener ( "click", entregarDinero);
-
-

@@ -3,13 +3,132 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:center;
+    color: rgb(43, 43, 43);
+
 }
 
 header{
-    padding:50px;
     background-color: white;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
+    display: flex;
+    justify-content: center;
     
+    margin: auto;
+}
+
+header p{
+    color: #121256 ;
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 35px;
+    
+}
+
+header img{
+    margin: 20px;
+    min-width: 20px;
+    max-width: 50px;
+    min-height: 20px;
+    max-height: 50px;
+}
+
+nav{
+    background-color: white;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 0;
+    margin-bottom: 0;
+}
+
+il{
+    padding: 10px;
+}
+
+il:hover{
+    background-color: #035f90;
+    color:white;
+    padding: 10px;
+}
+
+.container{
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.atm{
+    height: 30%;
+    width: 50%;
+    margin:20px;
+    color: rgb(43, 43, 43);
+    border-radius: 20px;
+}
+
+.extraer{
+    color:whitesmoke;
+    background-color: #02507a;
+    border-radius: 20px;
+    padding:10px;
+    border: none;
+    box-shadow: 3px 5px 15px rgb(78, 78, 78);
+}
+
+.extraer:hover{
+    color:whitesmoke;
+    font-size: 14px;
+    background-color: #02507a;
+    border-radius: 20px;
+    padding:10px;
+    border: none;
+    box-shadow: 3px 5px 15px rgb(78, 78, 78);
+}
+
+.extraer:active{
+    color:whitesmoke;
+    background-color: #013d5e;
+    border-radius: 20px;
+    padding:10px;
+    border: none;
+    box-shadow: 3px 5px 15px rgb(78, 78, 78);
+}
+
+ .resultado{
+    padding: 20px;
+    color: rgb(43, 43, 43);
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.footerleft{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.footercenter{
+    margin: 15px;
+    display: flex;
+    align-content: flex-row;
+    
+}
+
+.footercenter button{
+    border: none;
+    box-shadow: 3px 5px 15px rgb(78, 78, 78);
+}
+
+button:hover{
+    border: none;
+    padding: 5px;
+
 }
