@@ -132,3 +132,9 @@ button:hover{
     padding: 5px;
 
 }
+
+@media  screen and (max-width: 700px) {
+    .row{
+       flex-direction: column;
+   }
+}
